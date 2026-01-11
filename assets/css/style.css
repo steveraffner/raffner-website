@@ -273,9 +273,16 @@ p {
     text-transform: uppercase;
 }
 
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
 .main-nav ul {
     display: flex;
     gap: var(--spacing-lg);
+    margin: 0;
 }
 
 .main-nav a {
@@ -296,7 +303,6 @@ p {
     display: flex;
     gap: 8px;
     align-items: center;
-    margin-left: var(--spacing-lg);
 }
 
 .lang-btn {
