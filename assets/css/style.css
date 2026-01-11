@@ -290,6 +290,44 @@ p {
 }
 
 /* ========================================
+   LANGUAGE SWITCHER
+   ======================================== */
+.language-switcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: var(--spacing-lg);
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.lang-btn:hover {
+    border-color: var(--color-accent);
+    background: var(--color-bg);
+}
+
+.lang-btn.active {
+    background: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+}
+
+.lang-btn.active:hover {
+    background: var(--color-hover);
+}
+
+/* ========================================
    HERO SECTION
    ======================================== */
 .hero {
