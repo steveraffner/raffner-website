@@ -80,12 +80,13 @@
    ======================================== */
 :root {
     /* Couleurs */
-    --color-bg: #ffffff;
+    --color-bg: #f5f5e8;
     --color-text: #1a1a1a;
     --color-text-light: #666666;
     --color-border: #e5e5e5;
     --color-accent: #000000;
     --color-hover: #333333;
+    --color-yellow: #FFD700;
     
     /* Typographie */
     --font-primary: 'Inconsolata', monospace;
@@ -237,6 +238,21 @@ p {
 
 .site-title a {
     color: var(--color-accent);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.logo-badge {
+    background: var(--color-yellow);
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .main-nav ul {
@@ -261,8 +277,41 @@ p {
    HERO SECTION
    ======================================== */
 .hero {
-    padding: var(--spacing-xl) 0 var(--spacing-lg) 0;
+    padding: var(--spacing-lg) 0;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--spacing-xl);
+    align-items: start;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.hero-cta {
+    background: #f9f9f9;
+    padding: var(--spacing-lg);
+    border-radius: 4px;
     text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: var(--spacing-md);
+    transition: background var(--transition-fast);
+}
+
+.cta-button:hover {
+    background: #333;
+    color: #fff;
 }
 
 .hero h2 {
@@ -329,28 +378,28 @@ p {
 }
 
 .project-info {
-    padding: var(--spacing-xs) 0;
+    padding: var(--spacing-sm) 0;
 }
 
 .project-title {
-    font-family: var(--font-heading);
-    font-size: var(--font-size-large);
-    font-weight: 400;
-    margin-bottom: var(--spacing-xs);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    margin-bottom: 4px;
 }
 
 .project-description {
-    font-size: var(--font-size-base);
-    color: var(--color-text-light);
-    margin-bottom: var(--spacing-xs);
+    font-size: var(--font-size-small);
+    color: var(--color-text);
+    margin-bottom: 2px;
+    font-weight: 400;
 }
 
 .project-year {
     font-size: var(--font-size-small);
     color: var(--color-text-light);
-    display: inline-block;
+    display: block;
+    font-style: italic;
 }
 
 /* ========================================
@@ -581,7 +630,7 @@ p {
     }
     
     .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .about-content {
@@ -599,7 +648,7 @@ p {
    ======================================== */
 @media (min-width: 1400px) {
     .grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
