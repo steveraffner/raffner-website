@@ -170,8 +170,13 @@ function translatePage(lang) {
     currentLang = lang;
     localStorage.setItem('language', lang);
     
+    console.log('Translating to:', lang); // Debug
+    
     // Traduire tous les éléments avec data-i18n
-    document.querySelectorAll('[data-i18n]').forEach(element => {
+    const elements = document.querySelectorAll('[data-i18n]');
+    console.log('Found elements:', elements.length); // Debug
+    
+    elements.forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
             // Utiliser innerHTML si l'élément contient des balises HTML, sinon textContent
@@ -180,6 +185,9 @@ function translatePage(lang) {
             } else {
                 element.textContent = translations[lang][key];
             }
+            console.log('Translated:', key, '→', translations[lang][key]); // Debug
+        } else {
+            console.warn('Missing translation for:', key, 'in', lang); // Debug
         }
     });
     
