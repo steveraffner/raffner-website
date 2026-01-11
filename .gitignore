@@ -1,0 +1,31 @@
+# .gitignore pour site statique
+
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Éditeurs de code
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires
+*.log
+*.tmp
+.cache/
+
+# Node modules (si vous ajoutez des outils de build plus tard)
+node_modules/
+npm-debug.log*
+
+# Sauvegardes
+*.bak
+*.backup

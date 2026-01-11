@@ -1,0 +1,47 @@
+--2026-01-11 17:49:26--  http://raffner.com/
+Resolving raffner.com (raffner.com)... 104.20.108.139
+Connecting to raffner.com (raffner.com)|104.20.108.139|:80... failed: Host is down.
+Retrying.
+
+--2026-01-11 17:49:42--  (try: 2)  http://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://raffner.com/ [following]
+--2026-01-11 17:49:42--  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Resolving raffner.com (raffner.com)... 104.20.108.139
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:51:29--  (try: 2)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:52:46--  (try: 3)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:54:04--  (try: 4)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:55:23--  (try: 5)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:56:43--  (try: 6)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:58:04--  (try: 7)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 17:59:26--  (try: 8)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 18:00:49--  (try: 9)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
