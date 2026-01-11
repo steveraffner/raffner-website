@@ -790,6 +790,71 @@ p {
     height: 100%;
 }
 
+.video-notice {
+    background: #f5f5f5;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+    text-align: center;
+}
+
+.video-notice p {
+    margin: 0;
+    font-size: var(--font-size-base);
+}
+
+.video-subtitle {
+    margin-top: 8px !important;
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+.media-logos, .sponsor-logos {
+    display: grid;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-sm);
+}
+
+.media-item, .sponsor-item {
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: var(--spacing-sm);
+    transition: background 0.2s;
+}
+
+.media-item:hover, .sponsor-item:hover {
+    background: #f8f8f8;
+}
+
+.media-item a, .sponsor-item a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.media-logo, .sponsor-logo {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--color-text);
+}
+
+.bfm-logo {
+    color: #e2001a;
+}
+
+.lematin-logo {
+    color: #0066cc;
+}
+
+.media-item p, .sponsor-item p {
+    font-size: var(--font-size-small);
+    line-height: 1.4;
+    margin: 0;
+}
+
 .project-two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
