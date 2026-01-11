@@ -963,6 +963,22 @@ p {
     background: #333;
 }
 
+.specs-list {
+    background: #f8f8f8;
+    padding: var(--spacing-md);
+    border-radius: 4px;
+    margin: var(--spacing-md) 0;
+}
+
+.specs-list ul {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.specs-list li {
+    margin-bottom: 4px;
+}
+
 .project-two-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
