@@ -470,7 +470,7 @@ p {
    PAGE À PROPOS
    ======================================== */
 .about-section {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-lg) 0;
 }
 
 .about-hero {
@@ -656,7 +656,7 @@ p {
    PAGE MAKING-OF
    ======================================== */
 .making-of-section {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-lg) 0;
 }
 
 .making-of-title {
@@ -760,7 +760,7 @@ p {
    PROJECT DETAIL PAGE
    ======================================== */
 .project-detail {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-lg) 0;
 }
 
 .project-detail h2 {
@@ -1036,9 +1036,9 @@ p {
    FOOTER
    ======================================== */
 .site-footer {
-    padding: var(--spacing-lg) 0;
+    padding: var(--spacing-md) 0;
     border-top: 1px solid var(--color-border);
-    margin-top: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
 }
 
 .site-footer .container {
