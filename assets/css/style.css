@@ -243,6 +243,23 @@ p {
     gap: var(--spacing-sm);
 }
 
+.logo-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--color-yellow);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.logo-icon svg,
+.logo-icon img {
+    width: 40px;
+    height: 40px;
+}
+
 .logo-badge {
     background: var(--color-yellow);
     color: #000;
@@ -262,8 +279,6 @@ p {
 
 .main-nav a {
     font-size: var(--font-size-base);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
     font-weight: 400;
     transition: color var(--transition-fast);
 }
@@ -282,9 +297,17 @@ p {
 
 .hero-content {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     gap: var(--spacing-xl);
     align-items: start;
+}
+
+.hero-text h2 {
+    font-family: var(--font-heading);
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: var(--spacing-md);
+    text-transform: uppercase;
 }
 
 .hero-text {
@@ -292,10 +315,15 @@ p {
 }
 
 .hero-cta {
-    background: #f9f9f9;
+    background: #ffffff;
     padding: var(--spacing-lg);
     border-radius: 4px;
     text-align: center;
+}
+
+.hero-cta h3 {
+    font-size: 18px;
+    margin-bottom: var(--spacing-md);
 }
 
 .cta-button {
@@ -307,6 +335,7 @@ p {
     border-radius: 4px;
     margin-top: var(--spacing-md);
     transition: background var(--transition-fast);
+    font-size: var(--font-size-base);
 }
 
 .cta-button:hover {
@@ -630,7 +659,7 @@ p {
     }
     
     .grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     
     .about-content {
@@ -648,7 +677,7 @@ p {
    ======================================== */
 @media (min-width: 1400px) {
     .grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 

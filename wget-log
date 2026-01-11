@@ -78,4 +78,8 @@ Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation
 Retrying.
 
 --2026-01-11 18:13:33--  (try:18)  https://raffner.com/
+Connecting to raffner.com (raffner.com)|104.20.108.139|:443... failed: Operation timed out.
+Retrying.
+
+--2026-01-11 18:14:58--  (try:19)  https://raffner.com/
 Connecting to raffner.com (raffner.com)|104.20.108.139|:443... 
