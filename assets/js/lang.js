@@ -136,7 +136,12 @@ function translatePage(lang) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
-            element.textContent = translations[lang][key];
+            // Utiliser innerHTML si l'élément contient des balises HTML, sinon textContent
+            if (element.innerHTML.includes('<')) {
+                element.innerHTML = translations[lang][key];
+            } else {
+                element.textContent = translations[lang][key];
+            }
         }
     });
     
@@ -152,7 +157,10 @@ function translatePage(lang) {
 
 // Initialiser la langue au chargement
 document.addEventListener('DOMContentLoaded', () => {
-    translatePage(currentLang);
+    // Attendre un court instant pour s'assurer que tout le DOM est chargé
+    setTimeout(() => {
+        translatePage(currentLang);
+    }, 50);
     
     // Ajouter les événements aux boutons de langue
     document.querySelectorAll('.lang-btn').forEach(btn => {
