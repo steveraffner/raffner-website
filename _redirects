@@ -1,0 +1,7 @@
+# Redirections pour Cloudflare Pages
+
+# Rediriger les anciennes URLs si nécessaire (exemples)
+# /old-page.html  /new-page.html  301
+
+# Page 404 personnalisée (optionnel)
+# /404.html  /404.html  404
