@@ -59,7 +59,26 @@ const translations = {
         'making-of.drawerwallet.title': 'DrawerWallet - Portefeuille minimaliste',
         'making-of.drawerwallet.intro': 'DrawerWallet est né de mon besoin personnel d\'un portefeuille minimaliste et fonctionnel.',
         'making-of.drawerwallet.design.title': 'Design & Prototypage',
-        'making-of.drawerwallet.design.desc': 'Le concept repose sur un mécanisme de tiroir qui permet d\'accéder facilement aux cartes tout en maintenant un profil ultra-fin. Plusieurs prototypes ont été réalisés en impression 3D avant de finaliser le design.'
+        'making-of.drawerwallet.design.desc': 'Le concept repose sur un mécanisme de tiroir qui permet d\'accéder facilement aux cartes tout en maintenant un profil ultra-fin. Plusieurs prototypes ont été réalisés en impression 3D avant de finaliser le design.',
+        
+        // Contact page
+        'contact.title': 'Contact',
+        'contact.intro': 'Intéressé par une collaboration, une commande ou simplement envie d\'échanger ? N\'hésitez pas à me contacter.',
+        'contact.email.note': 'Pour toute demande professionnelle',
+        'contact.social.title': 'Réseaux sociaux',
+        'contact.social.note': 'Suivez mes derniers projets',
+        'contact.studio.title': 'Atelier',
+        'contact.studio.location': 'Genève, Suisse',
+        'contact.studio.appointment': 'Sur rendez-vous uniquement',
+        'contact.studio.note': 'Les visites d\'atelier sont possibles après arrangement préalable',
+        'contact.collab.title': 'Collaborations',
+        'contact.collab.intro': 'Je suis ouvert aux projets suivants :',
+        'contact.collab.item1': 'Développement de produits IoT',
+        'contact.collab.item2': 'Conseil en innovation',
+        'contact.collab.item3': 'Design industriel',
+        'contact.collab.item4': 'Prototypage rapide',
+        'contact.collab.item5': 'Projets sur mesure',
+        'contact.response': 'Je réponds généralement sous 48 heures.'
     },
     en: {
         // Navigation
@@ -120,7 +139,26 @@ const translations = {
         'making-of.drawerwallet.title': 'DrawerWallet - Minimalist Wallet',
         'making-of.drawerwallet.intro': 'DrawerWallet was born from my personal need for a minimalist and functional wallet.',
         'making-of.drawerwallet.design.title': 'Design & Prototyping',
-        'making-of.drawerwallet.design.desc': 'The concept relies on a drawer mechanism that allows easy access to cards while maintaining an ultra-thin profile. Several prototypes were made using 3D printing before finalizing the design.'
+        'making-of.drawerwallet.design.desc': 'The concept relies on a drawer mechanism that allows easy access to cards while maintaining an ultra-thin profile. Several prototypes were made using 3D printing before finalizing the design.',
+        
+        // Contact page
+        'contact.title': 'Contact',
+        'contact.intro': 'Interested in a collaboration, a commission or just want to chat? Feel free to contact me.',
+        'contact.email.note': 'For any professional inquiry',
+        'contact.social.title': 'Social Networks',
+        'contact.social.note': 'Follow my latest projects',
+        'contact.studio.title': 'Studio',
+        'contact.studio.location': 'Geneva, Switzerland',
+        'contact.studio.appointment': 'By appointment only',
+        'contact.studio.note': 'Studio visits are possible after prior arrangement',
+        'contact.collab.title': 'Collaborations',
+        'contact.collab.intro': 'I am open to the following projects:',
+        'contact.collab.item1': 'IoT product development',
+        'contact.collab.item2': 'Innovation consulting',
+        'contact.collab.item3': 'Industrial design',
+        'contact.collab.item4': 'Rapid prototyping',
+        'contact.collab.item5': 'Custom projects',
+        'contact.response': 'I typically respond within 48 hours.'
     }
 };
 
