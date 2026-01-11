@@ -653,6 +653,110 @@ p {
 }
 
 /* ========================================
+   PAGE MAKING-OF
+   ======================================== */
+.making-of-section {
+    padding: var(--spacing-xl) 0;
+}
+
+.making-of-title {
+    font-family: var(--font-heading);
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: var(--spacing-xl);
+}
+
+.making-of-project {
+    margin-bottom: calc(var(--spacing-xl) * 2);
+}
+
+.project-header {
+    display: flex;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    align-items: flex-start;
+}
+
+.project-tasks {
+    flex: 0 0 200px;
+}
+
+.project-tasks ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.project-tasks li {
+    margin-bottom: 4px;
+    font-size: var(--font-size-small);
+}
+
+.project-badge {
+    flex: 1;
+}
+
+.yellow-badge {
+    background: #FFD700;
+    color: #000;
+    padding: 8px 24px;
+    font-family: var(--font-heading);
+    font-size: 32px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.making-of-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.making-of-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-hashtags {
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-small);
+}
+
+.project-link {
+    text-align: right;
+    margin-top: var(--spacing-md);
+}
+
+.project-link a {
+    background: #000;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--font-size-small);
+}
+
+@media (max-width: 767px) {
+    .making-of-title {
+        font-size: 28px;
+    }
+    
+    .project-header {
+        flex-direction: column;
+    }
+    
+    .project-tasks {
+        flex: 1;
+    }
+    
+    .making-of-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ========================================
    PROJECT DETAIL PAGE
    ======================================== */
 .project-detail {
