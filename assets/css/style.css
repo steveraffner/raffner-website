@@ -443,8 +443,8 @@ p {
    BIO SECTION (HOME PAGE)
    ======================================== */
 .bio-section {
-    margin-top: var(--spacing-xl);
-    padding-top: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
     border-top: 1px solid var(--color-border);
 }
 
