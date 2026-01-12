@@ -14,7 +14,7 @@ const translations = {
         
         // Projects
         'project.mobicapsule.desc': '5 prototypes fabriqués',
-        'project.eldorajob.desc': 'Un démarrage qui a nécessité 110000 CHF',
+        'project.eldorajob.desc': 'Testé par le Cern et Kelly Service Suisse',
         'project.hatlamp.desc': '195 fabriquées',
         'project.scalorie.desc': '5 prototypes fabriqués',
         'project.timebomb.desc': '5 prototypes fabriqués',
@@ -239,7 +239,7 @@ const translations = {
         
         // Projects
         'project.mobicapsule.desc': '5 prototypes made',
-        'project.eldorajob.desc': 'A startup that required 110000 CHF',
+        'project.eldorajob.desc': 'Tested by Cern and Kelly Service Switzerland',
         'project.hatlamp.desc': '195 made',
         'project.scalorie.desc': '5 prototypes made',
         'project.timebomb.desc': '5 prototypes made',
