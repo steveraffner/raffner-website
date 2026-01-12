@@ -1,6 +1,9 @@
 /* ========================================
    FONT FACES
    ======================================== */
+/* Archivo from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+
 /* Bebas Neue */
 @font-face {
   font-family: 'Bebas Neue';
@@ -399,12 +402,12 @@ p {
 }
 
 .hero-text h2 {
-    font-family: var(--font-heading);
+    font-family: 'Archivo', sans-serif;
     font-size: 29px;
     line-height: 1.2;
     margin-bottom: 16px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0px;
 }
 
